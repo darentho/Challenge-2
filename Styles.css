@@ -1,13 +1,35 @@
 
+    /*=======Variables======*/
+:root {
 
-/*=========Universal Styles========== */
+	/*=======Colors======*/
+
+	--highlight-color: #ff776f;
+	--abundant-color: #2adcdf;
+
+	/* ========Buttons Hover========= */
+	--transition: .4s;
+
+	/* .5rem = 8px, 1rem = 16px, 1.5rem = 24px ... */
+
+	--Big-Text: 4.688rem;
+	--Statement: 30px;
+
+	/* ========Buttons and Field Edges========= */
+
+	--Button-field: 30px;
+}
+
+    /*=========Universal Styles========== */
 
 * {
 	padding: 0;
 	margin: 0;
 	font-family: 'Josefin Sans', sans-serif;
 	box-sizing: border-box;}
-/*=========Hero and Background Picture========== */
+
+    /*=========Hero and Background Picture========== */
+    
     .hero {
         height: 100vh;
         width: 100%;
@@ -16,4 +38,64 @@
         background-position: center;
     
     }
+/*=========Nav, Logo and Hovers========== */
+    nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-top: 45px;
+        padding-left: 8%;
+        padding-right: 8%;
+    }
 
+    .logo {
+	
+        color: white;
+        font-size: 35px;
+        letter-spacing: 1px;
+        cursor: pointer;
+        
+    }
+    
+    .logo:hover {
+        transform: scale(1.2);
+    }
+    
+    ul {
+        
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+    
+    span {
+        color: var(--highlight-color);
+    }
+    
+    .logo span:hover {
+        color: var(--abundant-color);
+        
+        
+        
+    } 
+    
+    nav ul li {
+        list-style-type: none;
+        display: inline-block;
+        padding: 10px 25px;
+        border: dotted;
+        border-color: var(--highlight-color);
+        
+    }
+    
+    nav ul li a {
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+        text-transform: capitalize;
+    }
+    
+    nav ul li a:hover {
+        color: var(--abundant-color);
+        transition: var(--transition);
+    }
