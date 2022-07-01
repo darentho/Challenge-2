@@ -309,3 +309,45 @@ h5 {
 	border: 2px dotted var(--abundant-color);
 	cursor: pointer;
 }
+
+/*=============styling the contact me section======================*/
+
+.contact-me {
+	
+	width: 100%;
+	height: 290px;
+	background: #191919;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+	border: 1px solid red;
+
+}
+
+.contact-me p {
+	color: white;
+	font-size: var(--Statement);
+	font-weight: bold;
+	margin-bottom: 25px;
+	
+	
+}
+
+.contact-me .button-two {
+	background-color: var(--abundant-color);
+	color: white;
+	text-decoration: none;
+	border: 2px solid transparent;
+	font-weight: bold;
+	padding: 13px 30px;
+	border-radius: var(--Button-field);
+	transition: var(--transition);
+
+}
+
+.contact-me .button-two:hover {
+	background-color: transparent;
+	border: 2px solid var(--abundant-color);
+	cursor: pointer;
+}
