@@ -153,3 +153,80 @@
         right: 6px;
         bottom: 3px;
     }
+
+
+    /* Styling the About section  */
+
+    .about {
+        
+            width: 100%;
+            padding: 100px 0px;
+            background-color: #191919;
+        }
+        
+        
+        
+    
+
+    
+    .about img{
+        height: auto;
+        width: 700px;
+        
+    }
+
+    .about-text{
+        width: 500px;
+       
+    }
+
+    .main{
+        width: 1130px;
+        max-width: 95%;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;}
+
+
+        .about-text h2 {
+            color: white;
+            font-size: var(--Big-Text);
+            text-transform: capitalize;
+            margin-bottom: 20px;
+        }
+        
+        .about-text h5 {
+            color: white;
+            letter-spacing: 2px;
+            font-size: 22px;
+            margin-bottom: 25px;
+            text-transform: capitalize;
+        }
+        
+        .about-text p {
+            color: #fcfc;
+            letter-spacing: 1px;
+            line-height: 28px;
+            font-size: 18px;
+            margin-bottom: 45px;
+            
+        }
+
+        button {
+            background-color: var(--abundant-color);
+            color: white;
+            text-decoration: none;
+            border: 2px dotted transparent;
+            font-weight: bold;
+            padding: 13px 30px;
+            border-radius: var(--Button-field);
+            transition: var(--transition);
+            
+        }
+        
+        button:hover {
+            background-color: transparent;
+            border: 2px dotted var(--abundant-color);
+            cursor: pointer;
+        }
