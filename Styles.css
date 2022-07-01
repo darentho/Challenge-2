@@ -321,7 +321,7 @@ h5 {
 	align-items: center;
 	flex-direction: column;
 	justify-content: center;
-	border: 1px solid red;
+	
 
 }
 
@@ -350,4 +350,112 @@ h5 {
 	background-color: transparent;
 	border: 2px solid var(--abundant-color);
 	cursor: pointer;
+}
+
+
+footer {
+	position: relative;
+	width: 100%;
+	height: 400px;
+	background: #101010;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+footer p:nth-child(1) {
+	font-size: var(--Statement);
+	color: white;
+	margin-bottom: 20px;
+	font-weight: bold;
+}
+
+footer p:nth-child(2) {
+	color: white;
+	font-size: 17px;
+	width: 500px;
+	text-align: center;
+	line-height: 26px;
+}
+
+.social {
+	display: flex;
+
+}
+
+.social a {
+	width: 45px;
+	height: 45px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: var(--abundant-color);
+	border-radius: 50%;
+	margin: 22px 10px;
+	color: white;
+	text-decoration: none;
+	font-size: 20px;
+}
+
+.social a:hover {
+	transform: scale(1.3);
+	transition: var(--transition);
+	background-color: transparent;
+	border: 2px dotted var(--abundant-color);
+}
+
+.end {
+	position: absolute;
+	color: var(--abundant-color);
+	bottom: 35px;
+	font-size: 14px;
+}
+
+/*======= 1200px Laptop Media Queries============= */
+@media screen and (max-width: 1200px) {
+
+	
+
+	
+.hero {
+	background-image: none;
+	background-color: black;
+}
+
+	
+}
+
+	.about img {
+
+		width: 600px;
+}
+
+
+
+/*===============768px Tablet Media Queries=================*/
+
+@media screen and (max-width: 768px) {
+	 nav ul li {
+          display: flex;
+		  flex-direction: column;
+		  border: 2px double var(--abundant-color);
+		  
+
+		
+		
+	}
+
+
+.main {
+	flex-direction: column;
+}
+
+
+.service h2 {
+	display: flex;
+	flex-direction: inherit;
+
+}
+	
 }
