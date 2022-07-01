@@ -165,10 +165,6 @@
         }
         
         
-        
-    
-
-    
     .about img{
         height: auto;
         width: 700px;
@@ -230,3 +226,86 @@
             border: 2px dotted var(--abundant-color);
             cursor: pointer;
         }
+
+        /*==========Styling the Service Section*==================*/
+
+        .service {
+	
+	
+	background: #101010;
+	width: 100%;
+	padding: 100px 0px;
+	
+}
+
+.title h2 {
+	color: white;
+	font-size: var(--Big-Text);
+	width: 1130px;
+	margin: 30px auto;
+	text-align: center;
+}
+
+.box {
+	
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 400px;
+	
+	
+}
+
+.card {
+	height: 365px;
+	width: 335px;
+	padding: 20px 35px;
+	background: #191919;
+	border-radius: 20px;
+	margin: 15px;
+	position: relative;
+	overflow: hidden;
+	text-align: center;
+	border: 1px solid mediumaquamarine;
+	
+}
+
+.card i {
+	font-size: 50px;
+	display: block;
+	text-align: center;
+	margin: 25px 0px;
+	color: var(--abundant-color);
+
+}
+
+
+h5 {
+	color: white;
+	font-size: 23px;
+	margin-bottom: 15px;
+}
+
+.pra p {
+	color: #fcfc;
+	font-size: 16px;
+	line-height: 27px;
+	margin-bottom: 25px;
+}
+
+.card .button {
+	background-color: var(--abundant-color);
+	color: white;
+	text-decoration: none;
+	border: 2px solid transparent;
+	font-weight: bold;
+	padding: 9px 22px;
+	border-radius: var(--Button-field);
+	transition: var(--transition);
+}
+
+.card .button:hover {
+	background-color: transparent;
+	border: 2px dotted var(--abundant-color);
+	cursor: pointer;
+}
