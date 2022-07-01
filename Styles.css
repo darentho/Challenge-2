@@ -1,12 +1,19 @@
 
 
-/*=========Universal Styles */
+/*=========Universal Styles========== */
 
 * {
 	padding: 0;
 	margin: 0;
 	font-family: 'Josefin Sans', sans-serif;
 	box-sizing: border-box;}
-
-
+/*=========Hero and Background Picture========== */
+    .hero {
+        height: 100vh;
+        width: 100%;
+        background-image: url(../img/husband.jpg);
+        background-size: cover;
+        background-position: center;
     
+    }
+
